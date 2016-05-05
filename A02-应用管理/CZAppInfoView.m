@@ -24,13 +24,7 @@
     NSBundle *bundle = [NSBundle mainBundle];
     //加载xib中得view
     CZAppInfoView *subView = [[bundle loadNibNamed:@"CZAppInfoView" owner:nil options:nil] lastObject];
-    
-    //加载xml
-//    CZAppInfoView *v = [[CZAppInfoView alloc] init];
-//    v.frame
-    
-    
-    
+
     return subView;
 }
 
